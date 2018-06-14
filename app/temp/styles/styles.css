@@ -1295,3 +1295,14 @@ a {
     background-color: transparent;
   }
 }
+
+.reveal-item{
+	opacity: 0;
+	transition: all 1s ease-out;
+	transform: scale(1.15);
+}
+
+.reveal-item--is-visable {
+  opacity: 1;
+  transform: scale(1);
+}
